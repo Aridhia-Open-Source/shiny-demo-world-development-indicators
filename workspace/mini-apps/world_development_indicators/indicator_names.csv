@@ -1,0 +1,115 @@
+Indicator.Code,Indicator.Name
+sg_vaw_argu_zs,Women who believe a husband is justified in beating his wife when she argues with him (%)
+sg_vaw_burn_zs,Women who believe a husband is justified in beating his wife when she burns the food (%)
+sg_vaw_goes_zs,Women who believe a husband is justified in beating his wife when she goes out without telling him (%)
+sg_vaw_negl_zs,Women who believe a husband is justified in beating his wife when she neglects the children (%)
+sg_vaw_reas_zs,Women who believe a husband is justified in beating his wife (any of five reasons) (%)
+sg_vaw_refu_zs,Women who believe a husband is justified in beating his wife when she refuses sex with him (%)
+sh_anm_nprg_zs,Prevalence of anemia among non-pregnant women (% of women ages 15-49)
+sh_con_1524_fe_zs,"Condom use, population ages 15-24, female (% of females ages 15-24)"
+sh_con_1524_ma_zs,"Condom use, population ages 15-24, male (% of males ages 15-24)"
+sh_dth_imrt,Number of infant deaths
+sh_dth_mort,Number of under-five deaths
+sh_dth_nmrt,Number of neonatal deaths
+sh_dyn_aids_fe_zs,Women's share of population ages 15+ living with HIV (%)
+sh_dyn_aids_zs,"Prevalence of HIV, total (% of population ages 15-49)"
+sh_dyn_mort,"Mortality rate, under-5 (per 1,000 live births)"
+sh_dyn_mort_fe,"Mortality rate, under-5, female (per 1,000)"
+sh_dyn_mort_ma,"Mortality rate, under-5, male (per 1,000)"
+sh_dyn_nmrt,"Mortality rate, neonatal (per 1,000 live births)"
+sh_hiv_0014,Children (0-14) living with HIV
+sh_hiv_1524_fe_zs,"Prevalence of HIV, female (% ages 15-24)"
+sh_hiv_1524_ma_zs,"Prevalence of HIV, male (% ages 15-24)"
+sh_hiv_artc_zs,Antiretroviral therapy coverage (% of people living with HIV)
+sh_imm_idpt,"Immunization, DPT (% of children ages 12-23 months)"
+sh_imm_meas,"Immunization, measles (% of children ages 12-23 months)"
+sh_med_beds_zs,"Hospital beds (per 1,000 people)"
+sh_med_cmhw_p3,"Community health workers (per 1,000 people)"
+sh_med_numw_p3,"Nurses and midwives (per 1,000 people)"
+sh_med_phys_zs,"Physicians (per 1,000 people)"
+sh_mlr_nets_zs,Use of insecticide-treated bed nets (% of under-5 population)
+sh_mlr_tret_zs,Children with fever receiving antimalarial drugs (% of children under age 5 with fever)
+sh_mmr_dths,Number of maternal deaths
+sh_mmr_risk,Lifetime risk of maternal death (1 in: rate varies by country)
+sh_mmr_risk_zs,Lifetime risk of maternal death (%)
+sh_prg_anem,Prevalence of anemia among pregnant women (%)
+sh_prv_smok_fe,"Smoking prevalence, females (% of adults)"
+sh_prv_smok_ma,"Smoking prevalence, males (% of adults)"
+sh_sta_acsn,Improved sanitation facilities (% of population with access)
+sh_sta_acsn_ru,"Improved sanitation facilities, rural (% of rural population with access)"
+sh_sta_acsn_ur,"Improved sanitation facilities, urban (% of urban population with access)"
+sh_sta_anvc_zs,Pregnant women receiving prenatal care (%)
+sh_sta_aric_zs,ARI treatment (% of children under 5 taken to a health provider)
+sh_sta_bfed_zs,Exclusive breastfeeding (% of children under 6 months)
+sh_sta_brtc_zs,Births attended by skilled health staff (% of total)
+sh_sta_brtw_zs,Low-birthweight babies (% of births)
+sh_sta_maln_fe_zs,"Malnutrition prevalence, weight for age, female (% of children under 5)"
+sh_sta_maln_ma_zs,"Malnutrition prevalence, weight for age, male (% of children under 5)"
+sh_sta_maln_zs,"Malnutrition prevalence, weight for age (% of children under 5)"
+sh_sta_mmrt,"Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+sh_sta_mmrt_ne,"Maternal mortality ratio (national estimate, per 100,000 live births)"
+sh_sta_orcf_zs,Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)
+sh_sta_orth,Diarrhea treatment (% of children under 5 who received ORS packet)
+sh_sta_owgh_fe_zs,"Prevalence of overweight, female (% of children under 5)"
+sh_sta_owgh_ma_zs,"Prevalence of overweight, male (% of children under 5)"
+sh_sta_owgh_zs,Prevalence of overweight (% of children under 5)
+sh_sta_stnt_fe_zs,"Malnutrition prevalence, height for age, female (% of children under 5)"
+sh_sta_stnt_ma_zs,"Malnutrition prevalence, height for age, male (% of children under 5)"
+sh_sta_stnt_zs,"Malnutrition prevalence, height for age (% of children under 5)"
+sh_sta_wast_fe_zs,"Prevalence of wasting, female (% of children under 5)"
+sh_sta_wast_ma_zs,"Prevalence of wasting, male (% of children under 5)"
+sh_sta_wast_zs,Prevalence of wasting (% of children under 5)
+sh_svr_wast_fe_zs,"Prevalence of severe wasting, weight for height, female (% of children under 5)"
+sh_svr_wast_ma_zs,"Prevalence of severe wasting, weight for height, male (% of children under 5)"
+sh_svr_wast_zs,"Prevalence of severe wasting, weight for height (% of children under 5)"
+sh_tbs_cure_zs,Tuberculosis treatment success rate (% of new cases)
+sh_tbs_dtec_zs,"Tuberculosis case detection rate (%, all forms)"
+sh_tbs_incd,"Incidence of tuberculosis (per 100,000 people)"
+sh_vac_ttns_zs,Newborns protected against tetanus (%)
+sh_xpd_extr_zs,External resources for health (% of total expenditure on health)
+sh_xpd_oopc_to_zs,Out-of-pocket health expenditure (% of total expenditure on health)
+sh_xpd_oopc_zs,Out-of-pocket health expenditure (% of private expenditure on health)
+sh_xpd_pcap,Health expenditure per capita (current US$)
+sh_xpd_pcap_pp_kd,"Health expenditure per capita, PPP (constant 2011 international $)"
+sh_xpd_priv_zs,"Health expenditure, private (% of GDP)"
+sh_xpd_publ,"Health expenditure, public (% of total health expenditure)"
+sh_xpd_publ_gx_zs,"Health expenditure, public (% of government expenditure)"
+sh_xpd_publ_zs,"Health expenditure, public (% of GDP)"
+sh_xpd_totl_zs,"Health expenditure, total (% of GDP)"
+sn_itk_defc_zs,Prevalence of undernourishment (% of population)
+sn_itk_dfct,Depth of the food deficit (kilocalories per person per day)
+sn_itk_salt_zs,Consumption of iodized salt (% of households)
+sn_itk_vita_zs,Vitamin A supplementation coverage rate (% of children ages 6-59 months)
+sp_ado_tfrt,"Adolescent fertility rate (births per 1,000 women ages 15-19)"
+sp_dth_infr_zs,Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)
+sp_dth_rept_zs,Completeness of total death reporting (% of reported total deaths to estimated total deaths)
+sp_dyn_amrt_fe,"Mortality rate, adult, female (per 1,000 female adults)"
+sp_dyn_amrt_ma,"Mortality rate, adult, male (per 1,000 male adults)"
+sp_dyn_cbrt_in,"Birth rate, crude (per 1,000 people)"
+sp_dyn_cdrt_in,"Death rate, crude (per 1,000 people)"
+sp_dyn_conu_zs,Contraceptive prevalence (% of women ages 15-49)
+sp_dyn_imrt_fe_in,"Mortality rate, infant, female (per 1,000 live births)"
+sp_dyn_imrt_in,"Mortality rate, infant (per 1,000 live births)"
+sp_dyn_imrt_ma_in,"Mortality rate, infant, male (per 1,000 live births)"
+sp_dyn_le00_fe_in,"Life expectancy at birth, female (years)"
+sp_dyn_le00_in,"Life expectancy at birth, total (years)"
+sp_dyn_le00_ma_in,"Life expectancy at birth, male (years)"
+sp_dyn_tfrt_in,"Fertility rate, total (births per woman)"
+sp_dyn_to65_fe_zs,"Survival to age 65, female (% of cohort)"
+sp_dyn_to65_ma_zs,"Survival to age 65, male (% of cohort)"
+sp_dyn_wfrt,Wanted fertility rate (births per woman)
+sp_hou_fema_zs,Female headed households (% of households with a female head)
+sp_mtr_1519_zs,Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)
+sp_pop_0014_to_zs,Population ages 0-14 (% of total)
+sp_pop_1564_to_zs,Population ages 15-64 (% of total)
+sp_pop_65up_to_zs,Population ages 65 and above (% of total)
+sp_pop_dpnd,Age dependency ratio (% of working-age population)
+sp_pop_dpnd_ol,"Age dependency ratio, old (% of working-age population)"
+sp_pop_dpnd_yg,"Age dependency ratio, young (% of working-age population)"
+sp_pop_grow,Population growth (annual %)
+sp_pop_totl,"Population, total"
+sp_pop_totl_fe_zs,"Population, female (% of total)"
+sp_reg_brth_ru_zs,"Completeness of birth registration, rural (%)"
+sp_reg_brth_ur_zs,"Completeness of birth registration, urban (%)"
+sp_reg_brth_zs,Completeness of birth registration (%)
+sp_uwt_tfrt,Unmet need for contraception (% of married women ages 15-49)
