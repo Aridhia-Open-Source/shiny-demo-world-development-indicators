@@ -1,10 +1,11 @@
 xap.require("ggvis",
             "shinydashboard",
             "dplyr",
-            "shiny")
+            "shiny",
+            "googleVis")
 
 #Define list for drop down menu
-indicators_table <- data.frame(read.csv("indicator_names.csv", stringsAsFactors = FALSE))
+indicators_table <- read.csv("indicator_names.csv", stringsAsFactors = FALSE)
 indicators_table <- indicators_table[!duplicated(indicators_table),]
 indicators <- indicators_table$Indicator.Code
 names(indicators) <- indicators_table$Indicator.Name
@@ -23,7 +24,7 @@ sidebar <- dashboardSidebar(
     selectInput('ycol',
       h4('Y Variable'),
       choices = indicators,
-      selected=indicators[28],
+      selected = indicators[28],
       selectize = FALSE
     )
   ),
@@ -46,12 +47,9 @@ sidebar <- dashboardSidebar(
 )
 
 body <- dashboardBody(
-  tags$head(
-    includeScript("google_gauge.js"),
-    includeScript("google_motionchart.js")
-  ),
+
   
-  htmlOutput("view"),
+  
   tags$head(tags$style(HTML('
     .skin-yellow .main-header .logo {
       background-color: #f39c12;
@@ -61,14 +59,10 @@ body <- dashboardBody(
     }
   '))),
   
-  HTML('<div id="chart_div"></div>') ,
-  tags$script(
-    '
-    Shiny.addCustomMessageHandler("myCallbackHandler", function(msg) {
-      drawChart(msg["Idvar"], msg["Timevar"], msg["Xvar"], msg["Yvar"],
-                msg["Colorvar"], msg["Sizevar"]); 
-    });
-    '
+  fluidRow(
+    column(12,
+      htmlOutput("test_plot")
+    )
   )
 )
 

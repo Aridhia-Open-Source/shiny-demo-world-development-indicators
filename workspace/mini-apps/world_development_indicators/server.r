@@ -11,18 +11,9 @@ shinyServer(function(input, output, session) {
     dataset_wide[, c("country_name", "region", "incomegroup", "year", "xcol", "ycol", "population")]
   })
   
-
-  observe({
-    
-    messageList = list(Idvar = selectedData()$country_name, 
-                       Timevar = selectedData()$year,
-                       Xvar = selectedData()$xcol, #"SP.DYN.LE00.IN", 
-                       Yvar = selectedData()$ycol, # "SP.DYN.TFRT.IN", 
-                       Colorvar = selectedData()$region,
-                       #Sizevar = rnorm(nrow(selectedData()), 0, 1))
-                       Sizevar = selectedData()$population)
-    
-    session$sendCustomMessage(type = "myCallbackHandler", message = messageList)
+  output$test_plot <- renderGvis({
+    gvisMotionChart(selectedData(), idvar = "country_name", timevar = "year", xvar = "xcol",
+                    yvar = "ycol", colorvar = "region", sizevar = "population",
+                    options = list(width = "1200px", height = "800px"))
   })
-  
 })
