@@ -20,14 +20,14 @@ sidebar <- dashboardSidebar(
 )
 
 body <- dashboardBody(
-  tags$head(tags$style(HTML('
+  tags$head(tags$style(HTML("
     .skin-yellow .main-header .logo {
       background-color: #f39c12;
     }
     .skin-yellow .main-header .logo:hover {
       background-color: #f39c12;
     }
-  '))),
+  "))),
   
   htmlOutput("gvis_out")
 )

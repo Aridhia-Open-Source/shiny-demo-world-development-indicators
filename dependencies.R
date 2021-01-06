@@ -1,0 +1,6 @@
+install.packages("shiny")
+install.packages("shinydashboard")
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("stringr")
+install.packages("googleVis")
