@@ -6,7 +6,12 @@ library(tidyr)
 library(stringr)
 library(googleVis)
 
-
+sanitise_names <- function(x) {
+  n <- names(x)
+  n <- tolower(n)
+  n <- str_replace_all(n, "\\.", "_")
+  return(n)
+}
 
 # Choose startign indicators
 indicators_table <- read.csv("data/indicator_names.csv", stringsAsFactors = FALSE)
@@ -18,6 +23,7 @@ start_y <- indicators_table$Indicator.Name[45]
 
 # Rename health_data_wide with descriptive names
 health_data_wide <- read.csv("data/health_indicators.csv")
+names(health_data_wide) <- sanitise_names(health_data_wide)
 # life_expenctancy <- xap.read_table("life_expectancy") %>%
 #   select(-id) %>%
 #   gather(key = "year", value = "life_expectancy", yr_1960:yr_2012) %>%

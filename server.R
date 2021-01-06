@@ -1,5 +1,5 @@
 
-shinyServer(function(input, output, session) {
+server <- function(input, output, session) {
    
   # Data selected for the motion chart
   selectedData <- reactive({
@@ -8,9 +8,9 @@ shinyServer(function(input, output, session) {
   
   output$gvis_out <- renderGvis({
     gvisMotionChart(selectedData(), 
-                    idvar = "Country.Name", timevar = "year", 
+                    idvar = "country_name", timevar = "year", 
                     xvar = start_x, yvar = start_y,
                     colorvar = "region", sizevar = "population",
                     options = list(width = "1000px", height = "800px"))
   })
-})
+}
