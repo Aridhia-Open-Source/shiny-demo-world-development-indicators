@@ -1,12 +1,31 @@
-# Overview
+# WORLD DEVELOPMENT INDICATORS
 
+**World Development Indicators** is the World Bank's premier compilation of cross-country comparable data on development. The World Development Indicators is a compilation of relevant, high-quality, and internationally comparable statistics about global development and the fight against poverty. 
 
-# Deployment
-The archive containing the miniapp for upload to XAP is in artifactory at ...TODO 
+The database contains 1,400 time series indicators for 217 economies and more than 60 country groups, with data for many indicators going back more than 50 years. The main topics covered in the data are:
 
-This repository contains a sample of the data used in the miniapp. The full dataset must be added to the archive before upload.
-Data required for this miniapp can be found at \\\\aridhia.net\files\Data Science Team\Open Data\worldbank\health_indicators.csv
+- **Poverty and inequality** (poverty, prosperity, consumption, income distribution...)
+- **People** (people dynamics, education, labor, health, gender...)
+- **Environment** (agriculture, climate change, energy, biodiversity, water, sanitation...)
+- **Economy** (growth, economic structure, income and savings, trade, labor productivity...)
+- **States and Markets** (business, stock markets, military, communications, transport, technology)
+- **Global Links** (debt, trade, aid dependency, refugee, tourism, migration)
 
-TODO find online source for data
+Tha database for the world development indicators can be found here: https://datatopics.worldbank.org/world-development-indicators/ 
+### Checkout and run
 
+You can clone this repository by using the command:
+
+```
+git clone https://github.com/aridhia/demo-world-development-indicators
+```
+
+Open the .Rproj file in RStudio and use `runApp()` to start the app.
+
+### Deploying to the workspace
+
+1. Create a new mini-app in the workspace called "world-development-indicators"" and delete the folder created for it
+2. Download this GitHub repo as a .ZIP file, or zip all the files
+3. Upload the .ZIP file to the workspace and upzip it inside a folder called "world-development-indicators"
+4. Run the app in your workspace
 
