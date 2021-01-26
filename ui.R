@@ -1,5 +1,9 @@
+##############
+##### UI #####
+##############
 
 
+# Defining Sidebar ---------------------------------
 sidebar <- dashboardSidebar(
   p("\"Improving health is central to the Millennium Development Goals,
     and the public sector is the main provider of health care in developing countries.
@@ -19,7 +23,9 @@ sidebar <- dashboardSidebar(
   width = 300
 )
 
+# Defining the body ---------------------------------
 body <- dashboardBody(
+  # Style
   tags$head(tags$style(HTML("
     .skin-yellow .main-header .logo {
       background-color: #f39c12;
@@ -29,13 +35,33 @@ body <- dashboardBody(
     }
   "))),
   
-  htmlOutput("gvis_out")
+  # Plot Output
+  plotlyOutput("plot",
+               height = "900px",
+               width = "1100px")
 )
 
-dashboardPage(
-  dashboardHeader(title = paste0("World Development Indicators (Health)"),
-                  titleWidth = 450),
-  sidebar,
-  body,
-  skin = "yellow"
+# Constructing the UI
+fluidPage(
+  tabsetPanel(
+    # App Tab ---------
+    tabPanel("App",
+      dashboardPage(
+        # Header
+        dashboardHeader(title = paste0("World Development Indicators (Health)"),
+                        titleWidth = 450),
+        # Sidebar
+        sidebar,
+        # Body
+        body,
+        skin = "yellow"
+        
+      )
+    ),
+    # Documentation Tab
+    documentation_tab()
+  )
+
 )
+
+

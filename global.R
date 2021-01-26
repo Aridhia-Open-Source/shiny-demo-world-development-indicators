@@ -8,8 +8,8 @@ library(shinydashboard)
 library(dplyr)
 library(tidyr)
 library(stringr)
-library(googleVis)
-library(gganimate)
+library(plotly)
+library(ggplot)
 
 # Source scripts
 source("config.R")
