@@ -1,3 +1,8 @@
+##################
+##### SERVER #####
+##################
+
+
 
 server <- function(input, output, session) {
    
@@ -6,11 +11,17 @@ server <- function(input, output, session) {
     health_data_wide
   })
   
-  output$gvis_out <- renderGvis({
-    gvisMotionChart(selectedData(), 
-                    idvar = "country_name", timevar = "year", 
-                    xvar = start_x, yvar = start_y,
-                    colorvar = "region", sizevar = "population",
-                    options = list(width = "1000px", height = "800px"))
+  # Plot output
+  output$plot <- renderPlotly({
+    gg <- ggplot(selectedData(),
+                 aes(incomegroup, life_expectancy, color = region)) +
+      geom_point(aes(size = population, frame = year, ids = country_name)) +
+      xlab("Income Group") +
+      ylab("Life Expectancy")
+    
+    ggplotly(gg)
+    
   })
-}
+  }
+
+  
