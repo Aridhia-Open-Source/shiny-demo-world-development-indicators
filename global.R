@@ -9,7 +9,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(plotly)
-library(ggplot)
+library(ggplot2)
 
 # Source scripts
 source("config.R")
