@@ -19,7 +19,7 @@ The database for the world development indicators can be found here: https://dat
 You can clone this repository by using the command:
 
 ```
-git clone https://github.com/aridhia/demo-world-development-indicators
+git clone https://github.com/Aridhia-Open-Source/shiny-demo-world-development-indicators
 ```
 
 Open the .Rproj file in RStudio and use `runApp()` to start the app.
